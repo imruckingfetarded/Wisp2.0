@@ -19,8 +19,7 @@ bot.on("ready", async () => {
 
 //imported settings
 let prefix;
- const owner = process.env.OWNER
- const token = process.env.TOKEN
+
 
  //turning bot on/logging it in
- bot.login(process.env.token);
+ bot.login(process.env.TOKEN);
